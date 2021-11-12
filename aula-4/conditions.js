@@ -23,7 +23,7 @@ const comparaStrings = (string1, string2) => {
 console.log(comparaStrings('Xuxinha', 'Xuxinha'));
 console.log(comparaStrings('Xuxinha', 'Nena'));
 
-const saoDiferentes = (number1, number2) =>
+const saoDiferentes = (number1, number2) => 
     number1 != number2 ? 'Sim, são diferentes!' : 'Não, são iguais!';
 
 console.log(saoDiferentes(1, 1));
